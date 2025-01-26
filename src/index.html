@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- Navbar -->
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+         <img src="/images/asset 0.png">
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+
+
+
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+         
+        
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <button type="button" id="toggle-darkMode" class=" text-black bg-white border focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Light Mode</button>
+      </div>
+    </div>
+</nav>
+
+
+<!-- Carousel -->
+
+
+<div class="relative w-full ">
+
+    <div id="default-carousel" class="relative overflow-hidden shadow-lg " data-carousel="static">
+        <!-- Carousel wrapper -->
+        <div class="relative h-80 md:h-96" data-carousel-inner>
+            <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="../images/ales-nesetril-Im7lZjxeLhg-unsplash-EFNYJM67.jpg"
+                    class="object-cover w-full h-full" alt="Slide 1">
+                
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="../images/bg2.jpg"
+                    class="object-cover w-full h-full" alt="Slide 2">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="../images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+                    class="object-cover w-full h-full" alt="Slide 3">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="../images/fabian-irsara-67l-QujB14w-unsplash.jpg"
+                    class="object-cover w-full h-full" alt="Slide 3">
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="../images/testtwo.jpg"
+                    class="object-cover w-full h-full" alt="Slide 3">
+            </div>
+        </div>
+     
+       
+        <!-- Slider controls -->
+        <button type="button"
+            class="flex absolute top-1/2 left-3 z-40 items-center justify-center w-10 h-10 bg-white/30 dark:bg-gray-800/30 rounded-full hover:bg-gray-300 focus:outline-none transition"
+            data-carousel-prev>
+            <svg class="w-5 h-5 text-white  " fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+        </button>
+        <button type="button"
+            class="flex absolute top-1/2 right-3 z-40 items-center justify-center w-10 h-10 bg-white/30 dark:bg-gray-800/30 rounded-full hover:bg-gray-300 focus:outline-none transition "
+            data-carousel-next>
+            <svg class="w-5 h-5 text-white  " fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+        </button>
+    </div>
+
+
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+
+</div>
+
+<!-- product -->
+
+
+<section class="bg-[#F3F4F6]  dark:bg-gray-950">
+    <div class="container mx-auto">
+        <div class="text-center pt-5 dark:text-white mb-4">
+            <h2 class="text-[48px]">Tools</h2>
+            <p>Lorem ipsum dolor sit amet consectetur !</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 py-8 ">
+
+            <div class="relative bg-white  card py-[32px] px-[24px] text-center border border-black rounded-lg"> 
+                <h4 class="text-2xl ">Product</h4>
+                <div class="w-[10%] my-2 h-[1px] bg-black m-auto"></div>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+<div class="absolute top-[-15px] right-[47%]  ">
+    <i class="fas fa-anchor-circle-exclamation  bg-[#FBD5D5] p-3 border rounded-full"></i>
+</div>
+            </div>
+            <div class="relative bg-white  card py-[32px] px-[24px] text-center border border-black rounded-lg"> 
+                <h4 class="text-2xl ">Product</h4>
+                <div class="w-[10%] my-2 h-[1px] bg-black m-auto"></div>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+<div class="absolute top-[-15px] right-[47%]  ">
+    <i class="fab fa-hire-a-helper  bg-[#FBD5D5] p-3 border rounded-full"></i>
+</div>
+            </div>
+        
+            <div class="relative bg-white  card py-[32px] px-[24px] text-center border border-black rounded-lg"> 
+                <h4 class="text-2xl ">Product</h4>
+                <div class="w-[10%] my-2 h-[1px] bg-black m-auto"></div>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+<div class="absolute top-[-15px] right-[47%]  ">
+    <i class="fas fa-jar-wheat  bg-[#FBD5D5] p-3 border rounded-full"></i>
+</div>
+            </div>
+        
+            <div class="relative bg-white  card py-[32px] px-[24px] text-center border border-black rounded-lg"> 
+                <h4 class="text-2xl ">Product</h4>
+                <div class="w-[10%] my-2 h-[1px] bg-black m-auto"></div>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+<div class="absolute top-[-15px] right-[47%]  ">
+    <i class="fas fa-water-ladder  bg-[#FBD5D5] p-3 border rounded-full"></i>
+</div>
+            </div>
+        
+            <div class="relative bg-white  card py-[32px] px-[24px] text-center border border-black rounded-lg"> 
+                <h4 class="text-2xl ">Product</h4>
+                <div class="w-[10%] my-2 h-[1px] bg-black m-auto"></div>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+<div class="absolute top-[-15px] right-[47%]  ">
+    <i class="fas fa-icicles  bg-[#FBD5D5] p-3 border rounded-full"></i>
+</div>
+            </div>
+        
+            <div class="relative bg-white  card py-[32px] px-[24px] text-center border border-black rounded-lg"> 
+                <h4 class="text-2xl ">Product</h4>
+                <div class="w-[10%] my-2 h-[1px] bg-black m-auto"></div>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+<div class="absolute top-[-15px] right-[47%]  ">
+    <i class="fas fa-wrench  bg-[#FBD5D5] p-3 border rounded-full"></i>
+</div>
+            </div>
+        
+        
+  
+
+        </div>
+
+
+
+    </div>
+</section>
+
+<!-- footer -->
+
+
+<footer class="w-full text-black bg-white dark:bg-gray-900">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <!--Grid-->
+        <div class="py-16 flex justify-between items-center flex-col gap-8 lg:flex-row">
+            <a href="#"  class="flex justify-center ">
+             <img src="../images/asset 18.png" alt="">
+               
+                    
+                    
+            </a>
+        
+            <div class="flex  space-x-4 sm:justify-center ">
+                <a href="javascript:;"  class="w-9 h-9 rounded-full bg-gray-800 flex justify-center items-center hover:bg-gray-600">
+                    <i class="w-[1.25rem] h-[1.125rem] text-white fab fa-facebook">
+                    </i>
+                    
+                        
+                </a>
+                <a href="javascript:;"  class="w-9 h-9 rounded-full bg-gray-800 flex justify-center items-center hover:bg-gray-600">
+                    <i class="w-[1.25rem] h-[1.125rem] text-white fab fa-twitter">
+                        </i>
+                        
+                </a>
+                <a href="javascript:;"  class="w-9 h-9 rounded-full bg-gray-800 flex justify-center items-center hover:bg-gray-600">
+                    <i class="w-[1.25rem] h-[1.125rem] text-white fab fa-linkedin">
+                    </i>
+                    
+                        
+                </a>
+                <a href="javascript:;"  class="w-9 h-9 rounded-full bg-gray-800 flex justify-center items-center hover:bg-gray-600">
+                    <i class="w-[1.25rem] h-[1.125rem] text-white fab fa-youtube">
+                    </i>
+                    
+                        
+                </a>
+            </div>
+        </div>
+        <!--Grid-->
+        <div class="py-7 border-t border-gray-700">
+            <div class="flex items-center justify-center">
+                <span class="text-gray-400 ">©<a href="https://pagedone.io/">MostafaMagdy</a>2024, All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+<script src="Js/all.min.js"></script>
+<script src="../path/to/flowbite/dist/flowbite.js"></script>
+<script src="Js/main.js"></script>
+</body>
+</html>
